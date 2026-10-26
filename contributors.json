@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19",
+  "generated": "2026-10-26",
   "contributors": [
     {
       "name": "Rikka",
@@ -17,7 +17,7 @@
       "name": "Rushi Ranpise",
       "login": "rushiranpise",
       "avatarUrl": "https://avatars.githubusercontent.com/u/37355997?v=4",
-      "commits": 471,
+      "commits": 505,
       "areas": [
         "APP",
         "I18N",
@@ -1360,6 +1360,18 @@
       ],
       "languages": [
         "it"
+      ]
+    },
+    {
+      "name": "danko",
+      "login": "last-doc-x",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/222331475?v=4",
+      "commits": 1,
+      "areas": [
+        "I18N"
+      ],
+      "languages": [
+        "ru"
       ]
     },
     {
