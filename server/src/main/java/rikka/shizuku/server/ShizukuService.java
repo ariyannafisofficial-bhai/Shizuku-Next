@@ -552,7 +552,10 @@ public class ShizukuService extends Service<ShizukuUserServiceManager, ShizukuCl
             }
         }
 
-        configManager.update(uid, null, mask, value);
+        // The packages are named, not left null: an entry with an empty package list is skipped by
+        // getApplications(), so an app that was allowed from the manager's list vanished from it.
+        List<String> uidPackages = PackageManagerApis.getPackagesForUidNoThrow(uid);
+        configManager.update(uid, uidPackages, mask, value);
     }
 
     private void onPermissionRevoked(String packageName) {
